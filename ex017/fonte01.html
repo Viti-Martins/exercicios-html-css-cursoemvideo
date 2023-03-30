@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;  /* safes combinations */
+            font-size: 1em ;
+            /* 
+            Medidas absolutas:
+            cm, mm, in, px, pt, pc
+            
+            Medidas relativas: 
+            em, ex, rem, vw, vh, %
+
+            Recomendações da W3C:
+            px, em
+            16px geralmente = 1em
+
+            OBS: 
+            in = polegadas;
+            pt e pc = medidas tipográficas, apenas impresso;
+            em = altura da letra maíuscula "M", altura-M;
+            ex = altura da letra "x", altura-x;
+            rem = root em -> altura-M da raíz
+            */
+        }
+
+        h1 {
+
+            font: italic bolder 3em 'Work Sans', sans-serif;
+            /* font-size: 1em;
+            font-weigth: bolder;
+            font-style: italic;
+            text-decoration: underline; 
+            */
+        }
+        
+        h2 {
+            font: bold 2em 'Times New Roman', sans-serif;
+            /* shorthand */
+            /* font-style -> font-weight -> font-size -> font-family */
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eos necessitatibus architecto laudantium tenetur similique facilis eaque, quam porro nam debitis quos ab nesciunt quia dolore sapiente nemo. Quos, minus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora aliquid, hic enim voluptatum veniam exercitationem doloremque totam eaque veritatis ab quasi sapiente, repudiandae quibusdam sed quisquam sequi earum ipsum obcaecati?</p>
+
+    <h2>Subtítulo do exercício</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, unde accusamus neque quibusdam voluptatibus cupiditate! Similique, laborum ducimus? Quae autem laborum aspernatur ea accusamus numquam quaerat rerum fugit officiis magni.</p>
+</body>
+</html>
